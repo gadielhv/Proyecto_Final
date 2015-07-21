@@ -50,6 +50,9 @@
                                 <state key="normal" title="Iniciar sesion">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="accesar:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="BOJ-2U-Asq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4pp-ef-won">
                                 <rect key="frame" x="141" y="256" width="78" height="30"/>
@@ -65,6 +68,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ra8-Eq-pxk"/>
+                    <connections>
+                        <outlet property="txtPasswordLogin" destination="29v-RR-t0c" id="9S7-0t-vI7"/>
+                        <outlet property="txtUserLogin" destination="HnY-1a-JsD" id="afx-vv-IKb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -141,7 +148,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0mf-Ed-yh0">
                                 <rect key="frame" x="149" y="264" width="133" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48b-RR-seq">
                                 <rect key="frame" x="162" y="374" width="54" height="30"/>
@@ -149,6 +156,9 @@
                                     <color key="titleColor" red="0.1273745047" green="0.69481928660000003" blue="0.1062602622" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="registrarUsuario:" destination="WEH-Cz-JTe" eventType="touchUpInside" id="rlo-ez-6FI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confirma:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZwX-Jd-Fh4">
                                 <rect key="frame" x="66" y="311" width="75" height="21"/>
@@ -159,11 +169,19 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iLS-SO-ZpZ">
                                 <rect key="frame" x="149" y="302" width="133" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="txtConfirmar" destination="iLS-SO-ZpZ" id="Kqc-KD-mgu"/>
+                        <outlet property="txtCorreo" destination="GiN-Ea-ZNn" id="0s5-BK-1O8"/>
+                        <outlet property="txtEdad" destination="2zM-mP-O0J" id="PfT-a8-HlK"/>
+                        <outlet property="txtNombre" destination="Nh0-Qh-cbs" id="HRY-Wg-5f4"/>
+                        <outlet property="txtPassword" destination="0mf-Ed-yh0" id="Qzy-0y-chs"/>
+                        <outlet property="txtUsuario" destination="bH3-cq-Iqr" id="JdQ-08-hwb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UwC-9p-XaT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -11,7 +11,6 @@
 		D2DA652D1B5D6C68005F402F /* icon.ico in Resources */ = {isa = PBXBuildFile; fileRef = D2DA652C1B5D6C68005F402F /* icon.ico */; };
 		D2DA652F1B5D7FA7005F402F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA652E1B5D7FA7005F402F /* image.png */; };
 		D2DA65321B5D80AF005F402F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2DB7DE51B599B450053D1C1 /* Images.xcassets */; };
-		D2DA65361B5D8690005F402F /* tienda.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D2DA65351B5D8690005F402F /* tienda.sqlite */; };
 		D2DA65381B5D86CB005F402F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D2DA65371B5D86CB005F402F /* libsqlite3.0.dylib */; };
 		D2DB7DDB1B599B450053D1C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7DDA1B599B450053D1C1 /* main.m */; };
 		D2DB7DDE1B599B450053D1C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7DDD1B599B450053D1C1 /* AppDelegate.m */; };
@@ -21,6 +20,10 @@
 		D2DB7DF51B599B450053D1C1 /* Proyecto_FinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7DF41B599B450053D1C1 /* Proyecto_FinalTests.m */; };
 		D2DB7E0D1B59B3140053D1C1 /* AdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7E0B1B59B3140053D1C1 /* AdminViewController.m */; };
 		D2DB7E0E1B59B3140053D1C1 /* AdminView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DB7E0C1B59B3140053D1C1 /* AdminView.xib */; };
+		D2E3D9FC1B5E9124009027E7 /* UsuarioDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E3D9FB1B5E9124009027E7 /* UsuarioDAO.m */; };
+		D2E3D9FE1B5E9620009027E7 /* tiendaPelis.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D2E3D9FD1B5E9620009027E7 /* tiendaPelis.sqlite */; };
+		D2E3DA031B5E9822009027E7 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E3DA021B5E9822009027E7 /* Usuario.m */; };
+		D2E3DA061B5EEBB5009027E7 /* Producto.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E3DA051B5EEBB5009027E7 /* Producto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,6 @@
 		D2DA652A1B5D5497005F402F /* film_camera_35mm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = film_camera_35mm.png; sourceTree = "<group>"; };
 		D2DA652C1B5D6C68005F402F /* icon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = icon.ico; sourceTree = "<group>"; };
 		D2DA652E1B5D7FA7005F402F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
-		D2DA65351B5D8690005F402F /* tienda.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = tienda.sqlite; sourceTree = "<group>"; };
 		D2DA65371B5D86CB005F402F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		D2DB7DD51B599B450053D1C1 /* Proyecto_Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto_Final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DB7DD91B599B450053D1C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +57,13 @@
 		D2DB7E0A1B59B3140053D1C1 /* AdminViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminViewController.h; sourceTree = "<group>"; };
 		D2DB7E0B1B59B3140053D1C1 /* AdminViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminViewController.m; sourceTree = "<group>"; };
 		D2DB7E0C1B59B3140053D1C1 /* AdminView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdminView.xib; sourceTree = "<group>"; };
+		D2E3D9FA1B5E9124009027E7 /* UsuarioDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsuarioDAO.h; sourceTree = "<group>"; };
+		D2E3D9FB1B5E9124009027E7 /* UsuarioDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuarioDAO.m; sourceTree = "<group>"; };
+		D2E3D9FD1B5E9620009027E7 /* tiendaPelis.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiendaPelis.sqlite; sourceTree = "<group>"; };
+		D2E3DA011B5E9822009027E7 /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
+		D2E3DA021B5E9822009027E7 /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
+		D2E3DA041B5EEBB5009027E7 /* Producto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Producto.h; sourceTree = "<group>"; };
+		D2E3DA051B5EEBB5009027E7 /* Producto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Producto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +88,8 @@
 		D2DB7DCC1B599B450053D1C1 = {
 			isa = PBXGroup;
 			children = (
-				D2DA65371B5D86CB005F402F /* libsqlite3.0.dylib */,
 				D2DB7DD71B599B450053D1C1 /* Proyecto_Final */,
+				D2DA65371B5D86CB005F402F /* libsqlite3.0.dylib */,
 				D2DB7DF11B599B450053D1C1 /* Proyecto_FinalTests */,
 				D2DB7DD61B599B450053D1C1 /* Products */,
 			);
@@ -98,12 +107,13 @@
 		D2DB7DD71B599B450053D1C1 /* Proyecto_Final */ = {
 			isa = PBXGroup;
 			children = (
+				D2E3DA001B5E97F5009027E7 /* Models */,
 				D2DB7E001B599B5F0053D1C1 /* Controller */,
 				D2DB7DFF1B599B570053D1C1 /* DB */,
 				D2DB7DFE1B599B4E0053D1C1 /* View */,
 				D2DB7DDC1B599B450053D1C1 /* AppDelegate.h */,
 				D2DB7DDD1B599B450053D1C1 /* AppDelegate.m */,
-				D2DA65351B5D8690005F402F /* tienda.sqlite */,
+				D2E3D9FD1B5E9620009027E7 /* tiendaPelis.sqlite */,
 				D2DA652C1B5D6C68005F402F /* icon.ico */,
 				D2DB7DE21B599B450053D1C1 /* Main.storyboard */,
 				D2DB7DE51B599B450053D1C1 /* Images.xcassets */,
@@ -154,6 +164,8 @@
 		D2DB7DFF1B599B570053D1C1 /* DB */ = {
 			isa = PBXGroup;
 			children = (
+				D2E3D9FA1B5E9124009027E7 /* UsuarioDAO.h */,
+				D2E3D9FB1B5E9124009027E7 /* UsuarioDAO.m */,
 			);
 			name = DB;
 			sourceTree = "<group>";
@@ -165,6 +177,17 @@
 				D2DB7DE01B599B450053D1C1 /* ViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		D2E3DA001B5E97F5009027E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D2E3DA011B5E9822009027E7 /* Usuario.h */,
+				D2E3DA021B5E9822009027E7 /* Usuario.m */,
+				D2E3DA041B5EEBB5009027E7 /* Producto.h */,
+				D2E3DA051B5EEBB5009027E7 /* Producto.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +272,9 @@
 			files = (
 				D2DB7E0E1B59B3140053D1C1 /* AdminView.xib in Resources */,
 				D2DA652B1B5D5497005F402F /* film_camera_35mm.png in Resources */,
-				D2DA65361B5D8690005F402F /* tienda.sqlite in Resources */,
 				D2DA65321B5D80AF005F402F /* Images.xcassets in Resources */,
 				D2DA652D1B5D6C68005F402F /* icon.ico in Resources */,
+				D2E3D9FE1B5E9620009027E7 /* tiendaPelis.sqlite in Resources */,
 				D2DB7DE41B599B450053D1C1 /* Main.storyboard in Resources */,
 				D2DA652F1B5D7FA7005F402F /* image.png in Resources */,
 				D2DB7DE91B599B450053D1C1 /* LaunchScreen.xib in Resources */,
@@ -272,9 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2E3D9FC1B5E9124009027E7 /* UsuarioDAO.m in Sources */,
+				D2E3DA061B5EEBB5009027E7 /* Producto.m in Sources */,
 				D2DB7E0D1B59B3140053D1C1 /* AdminViewController.m in Sources */,
 				D2DB7DE11B599B450053D1C1 /* ViewController.m in Sources */,
 				D2DB7DDE1B599B450053D1C1 /* AppDelegate.m in Sources */,
+				D2E3DA031B5E9822009027E7 /* Usuario.m in Sources */,
 				D2DB7DDB1B599B450053D1C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
