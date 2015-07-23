@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D29DA0C91B5FFEAA00CEC430 /* AgregarProd.m in Sources */ = {isa = PBXBuildFile; fileRef = D29DA0C71B5FFEAA00CEC430 /* AgregarProd.m */; };
+		D29DA0CA1B5FFEAA00CEC430 /* AgregarProd.xib in Resources */ = {isa = PBXBuildFile; fileRef = D29DA0C81B5FFEAA00CEC430 /* AgregarProd.xib */; };
+		D29DA0D01B6033BF00CEC430 /* ActualizarProductosView.m in Sources */ = {isa = PBXBuildFile; fileRef = D29DA0CE1B6033BF00CEC430 /* ActualizarProductosView.m */; };
+		D29DA0D11B6033BF00CEC430 /* ProductosView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D29DA0CF1B6033BF00CEC430 /* ProductosView.xib */; };
+		D2A839081B614DAB00CFC8D4 /* UsuarioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A839061B614DAB00CFC8D4 /* UsuarioViewController.m */; };
+		D2A839091B614DAB00CFC8D4 /* UsuarioView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2A839071B614DAB00CFC8D4 /* UsuarioView.xib */; };
+		D2CA219B1B618C2600112047 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CA21991B618C2600112047 /* DetalleViewController.m */; };
+		D2CA219C1B618C2600112047 /* DetalleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2CA219A1B618C2600112047 /* DetalleView.xib */; };
+		D2CA21A21B619E5800112047 /* tiendaPelis.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D2CA21A11B619E5800112047 /* tiendaPelis.sqlite */; };
 		D2DA652B1B5D5497005F402F /* film_camera_35mm.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA652A1B5D5497005F402F /* film_camera_35mm.png */; };
 		D2DA652D1B5D6C68005F402F /* icon.ico in Resources */ = {isa = PBXBuildFile; fileRef = D2DA652C1B5D6C68005F402F /* icon.ico */; };
 		D2DA652F1B5D7FA7005F402F /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = D2DA652E1B5D7FA7005F402F /* image.png */; };
@@ -21,7 +30,6 @@
 		D2DB7E0D1B59B3140053D1C1 /* AdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DB7E0B1B59B3140053D1C1 /* AdminViewController.m */; };
 		D2DB7E0E1B59B3140053D1C1 /* AdminView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DB7E0C1B59B3140053D1C1 /* AdminView.xib */; };
 		D2E3D9FC1B5E9124009027E7 /* UsuarioDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E3D9FB1B5E9124009027E7 /* UsuarioDAO.m */; };
-		D2E3D9FE1B5E9620009027E7 /* tiendaPelis.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = D2E3D9FD1B5E9620009027E7 /* tiendaPelis.sqlite */; };
 		D2E3DA031B5E9822009027E7 /* Usuario.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E3DA021B5E9822009027E7 /* Usuario.m */; };
 		D2E3DA061B5EEBB5009027E7 /* Producto.m in Sources */ = {isa = PBXBuildFile; fileRef = D2E3DA051B5EEBB5009027E7 /* Producto.m */; };
 /* End PBXBuildFile section */
@@ -37,6 +45,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D29DA0C61B5FFEAA00CEC430 /* AgregarProd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgregarProd.h; sourceTree = "<group>"; };
+		D29DA0C71B5FFEAA00CEC430 /* AgregarProd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgregarProd.m; sourceTree = "<group>"; };
+		D29DA0C81B5FFEAA00CEC430 /* AgregarProd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AgregarProd.xib; sourceTree = "<group>"; };
+		D29DA0CD1B6033BF00CEC430 /* ActualizarProductosView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActualizarProductosView.h; sourceTree = "<group>"; };
+		D29DA0CE1B6033BF00CEC430 /* ActualizarProductosView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActualizarProductosView.m; sourceTree = "<group>"; };
+		D29DA0CF1B6033BF00CEC430 /* ProductosView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductosView.xib; sourceTree = "<group>"; };
+		D2A839051B614DAB00CFC8D4 /* UsuarioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsuarioViewController.h; sourceTree = "<group>"; };
+		D2A839061B614DAB00CFC8D4 /* UsuarioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuarioViewController.m; sourceTree = "<group>"; };
+		D2A839071B614DAB00CFC8D4 /* UsuarioView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsuarioView.xib; sourceTree = "<group>"; };
+		D2CA21981B618C2600112047 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		D2CA21991B618C2600112047 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		D2CA219A1B618C2600112047 /* DetalleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetalleView.xib; sourceTree = "<group>"; };
+		D2CA21A11B619E5800112047 /* tiendaPelis.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiendaPelis.sqlite; sourceTree = "<group>"; };
 		D2DA652A1B5D5497005F402F /* film_camera_35mm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = film_camera_35mm.png; sourceTree = "<group>"; };
 		D2DA652C1B5D6C68005F402F /* icon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = icon.ico; sourceTree = "<group>"; };
 		D2DA652E1B5D7FA7005F402F /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
@@ -59,7 +80,6 @@
 		D2DB7E0C1B59B3140053D1C1 /* AdminView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdminView.xib; sourceTree = "<group>"; };
 		D2E3D9FA1B5E9124009027E7 /* UsuarioDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsuarioDAO.h; sourceTree = "<group>"; };
 		D2E3D9FB1B5E9124009027E7 /* UsuarioDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsuarioDAO.m; sourceTree = "<group>"; };
-		D2E3D9FD1B5E9620009027E7 /* tiendaPelis.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiendaPelis.sqlite; sourceTree = "<group>"; };
 		D2E3DA011B5E9822009027E7 /* Usuario.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Usuario.h; sourceTree = "<group>"; };
 		D2E3DA021B5E9822009027E7 /* Usuario.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Usuario.m; sourceTree = "<group>"; };
 		D2E3DA041B5EEBB5009027E7 /* Producto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Producto.h; sourceTree = "<group>"; };
@@ -113,7 +133,6 @@
 				D2DB7DFE1B599B4E0053D1C1 /* View */,
 				D2DB7DDC1B599B450053D1C1 /* AppDelegate.h */,
 				D2DB7DDD1B599B450053D1C1 /* AppDelegate.m */,
-				D2E3D9FD1B5E9620009027E7 /* tiendaPelis.sqlite */,
 				D2DA652C1B5D6C68005F402F /* icon.ico */,
 				D2DB7DE21B599B450053D1C1 /* Main.storyboard */,
 				D2DB7DE51B599B450053D1C1 /* Images.xcassets */,
@@ -154,9 +173,11 @@
 		D2DB7DFE1B599B4E0053D1C1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D2DB7E0A1B59B3140053D1C1 /* AdminViewController.h */,
-				D2DB7E0B1B59B3140053D1C1 /* AdminViewController.m */,
 				D2DB7E0C1B59B3140053D1C1 /* AdminView.xib */,
+				D29DA0C81B5FFEAA00CEC430 /* AgregarProd.xib */,
+				D2A839071B614DAB00CFC8D4 /* UsuarioView.xib */,
+				D29DA0CF1B6033BF00CEC430 /* ProductosView.xib */,
+				D2CA219A1B618C2600112047 /* DetalleView.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -166,6 +187,7 @@
 			children = (
 				D2E3D9FA1B5E9124009027E7 /* UsuarioDAO.h */,
 				D2E3D9FB1B5E9124009027E7 /* UsuarioDAO.m */,
+				D2CA21A11B619E5800112047 /* tiendaPelis.sqlite */,
 			);
 			name = DB;
 			sourceTree = "<group>";
@@ -175,6 +197,16 @@
 			children = (
 				D2DB7DDF1B599B450053D1C1 /* ViewController.h */,
 				D2DB7DE01B599B450053D1C1 /* ViewController.m */,
+				D2DB7E0A1B59B3140053D1C1 /* AdminViewController.h */,
+				D2DB7E0B1B59B3140053D1C1 /* AdminViewController.m */,
+				D29DA0C61B5FFEAA00CEC430 /* AgregarProd.h */,
+				D29DA0C71B5FFEAA00CEC430 /* AgregarProd.m */,
+				D29DA0CD1B6033BF00CEC430 /* ActualizarProductosView.h */,
+				D29DA0CE1B6033BF00CEC430 /* ActualizarProductosView.m */,
+				D2A839051B614DAB00CFC8D4 /* UsuarioViewController.h */,
+				D2A839061B614DAB00CFC8D4 /* UsuarioViewController.m */,
+				D2CA21981B618C2600112047 /* DetalleViewController.h */,
+				D2CA21991B618C2600112047 /* DetalleViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -270,14 +302,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CA21A21B619E5800112047 /* tiendaPelis.sqlite in Resources */,
+				D2CA219C1B618C2600112047 /* DetalleView.xib in Resources */,
+				D29DA0D11B6033BF00CEC430 /* ProductosView.xib in Resources */,
 				D2DB7E0E1B59B3140053D1C1 /* AdminView.xib in Resources */,
 				D2DA652B1B5D5497005F402F /* film_camera_35mm.png in Resources */,
 				D2DA65321B5D80AF005F402F /* Images.xcassets in Resources */,
 				D2DA652D1B5D6C68005F402F /* icon.ico in Resources */,
-				D2E3D9FE1B5E9620009027E7 /* tiendaPelis.sqlite in Resources */,
+				D29DA0CA1B5FFEAA00CEC430 /* AgregarProd.xib in Resources */,
 				D2DB7DE41B599B450053D1C1 /* Main.storyboard in Resources */,
 				D2DA652F1B5D7FA7005F402F /* image.png in Resources */,
 				D2DB7DE91B599B450053D1C1 /* LaunchScreen.xib in Resources */,
+				D2A839091B614DAB00CFC8D4 /* UsuarioView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,7 +336,11 @@
 				D2DB7E0D1B59B3140053D1C1 /* AdminViewController.m in Sources */,
 				D2DB7DE11B599B450053D1C1 /* ViewController.m in Sources */,
 				D2DB7DDE1B599B450053D1C1 /* AppDelegate.m in Sources */,
+				D29DA0D01B6033BF00CEC430 /* ActualizarProductosView.m in Sources */,
 				D2E3DA031B5E9822009027E7 /* Usuario.m in Sources */,
+				D2CA219B1B618C2600112047 /* DetalleViewController.m in Sources */,
+				D2A839081B614DAB00CFC8D4 /* UsuarioViewController.m in Sources */,
+				D29DA0C91B5FFEAA00CEC430 /* AgregarProd.m in Sources */,
 				D2DB7DDB1B599B450053D1C1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
